@@ -1,0 +1,2 @@
+
+from passporto.settings import *
