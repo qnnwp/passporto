@@ -14,6 +14,9 @@ $ source bin/activate
 (passporto)$ buildout
 
 (passporto)$ cp passporto/sample.local_settings.py passporto/local_settings.py
+
 edit passporto/local_settings.py
+
 (passporto)$ passporto syncdb
+
 (passporto)$ passporto runserver
