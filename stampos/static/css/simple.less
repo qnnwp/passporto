@@ -1,0 +1,103 @@
+/* Reset Margins */
+
+h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: 800; font-family: 'Open Sans', sans-serif; }
+
+
+/* Start Mobile-first Styles */
+
+body {
+
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+
+.masthead {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background: url("/static/img/masterpiece.png") no-repeat 0 30%;
+    background-size: cover;
+    padding: 0;
+
+
+
+    h1 { font-size: 50px; font-family: 'Permanent Marker', cursive; letter-spacing: 5px; color: #f3ece1; }
+    p { font-family: 'Permanent Marker', cursive; font-size: 18px; letter-spacing: 1px; color: #f3ece1; }
+
+    .masthead-inner { padding: 2em 1em; position: relative; text-align: center; border-radius: 0; min-height: 510px; line-height: normal; }
+
+    .aca { margin: 2em 0;
+
+        .img-circle { width: 200px;
+            /* -moz-box-shadow: 0px 0px 0px 20px #f3ece1;
+            -webkit-box-shadow: 0px 0px 0px 20px #f3ece1;
+            box-shadow: 0px 0px 0px 20px #f3ece1; */
+        }
+
+    }
+    .netid{ position: absolute; bottom: 1.5em; left: 1em; right: 1em;
+
+        .input-group-addon { background: #fff; border: none; color: #ddd; }
+
+
+    }
+
+    input[type="text"] { border: none;
+
+        &::-webkit-input-placeholder {color: #ddd;}
+        &:-moz-placeholder { color: #ddd; }
+        &::-moz-placeholder { color: #ddd; }
+        &:-ms-input-placeholder { color: #ddd; }
+    }
+
+}
+
+
+.content { margin: 0;
+
+    .navbar { border-radius: 0; }
+
+    .content-inner { margin: 1em;
+
+        h3 {  text-align: center; margin: 1em 0 2em; color: #9b211d; font-family: 'Permanent Marker', cursive; font-size: 30px; }
+
+        ul { margin: 0; padding: 0;
+
+            li { margin-bottom: 2em; border-bottom: solid 1px #e3e3e3; padding-bottom: 2em;
+
+                .media { text-align: center;
+
+                    a { display: block; margin-bottom: .5em;
+
+                        .media-object { display: inline-block; }
+                    }
+
+                    .media-body {
+                        .media-heading { margin-bottom: 1em; }
+                        .media-description, .media-meta { text-align: left; }
+                        .media-meta { margin-top: .7em; color: #aaa; }
+                    }
+
+                }
+
+            }
+
+            li:last-child { border-bottom: none; }
+        }
+
+    }
+}
+
+
+.stuck { position: fixed; top: 0; left: 0; right: 0; z-index: 999; }
+
+#scrollUp {
+  bottom: .5em;
+  right: .5em;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+}
